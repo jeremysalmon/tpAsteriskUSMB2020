@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">		
+	<title>TP 2018 USMB</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="crossorigin="anonymous"></script> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card">
+				<div class="card-header bg-primary text-white"  style="cursor:pointer">
+					<i class="fas fa-chevron-down"></i> Historique
+				</div>
+				<div class="card-body">
+					<p>1999, <a href="https://web.archive.org/web/20120524222345/http://www.digium.com/en/company/bios.php?uid=1" target="_blank">Mark Spencer</a> gère une société ayant pour mission de faire du support de systèmes Linux "Linux Support Service". Au bout de quelques mois d'activité il a besoin de mettre en place un système de téléphonie aux fonctionnalités avancées (IVR, enregistrement, couplage téléphonie-informatique ...). Il ne trouve rien en dessous de 50.000$. Il décide alors de se lancer dans le développement d'un IPBX logiciel.</p>
+					<p>Fort de son expérience de stagiaire chez <a href="http://www.adtran.com/" target="_blank">Adtran</a>, il sort une première version en quelques mois. Afin d'accélérer le retour d'utilisateurs et l'ajout de nouvelles fonctionnalités, il décide de livrer son application sous une licence Open Source (GPL).</p>
+					<p>En 2001, "Linux Support Service" devien <a href="http://www.digium.com" target="_blank">Digium</a> et se spécialise dans Asterisk et ses produits dérivés (solutions clés en main, carte analogique et numérique, téléphones ...).</p>
+					<p>Asterisk fonctionne aujourd'hui sur plus de 1 million de serveurs (source Wikipedia), dans plus de 170 pays et propulse des systèmes de communication de la plupart des entreprises de Fortune 500.</p>
+					<p>Le 31 août 2018, Sangoma, une entreprise de matériel de VoIP acquiert Digium pour 30 millions de dollars.</p>
+					<hr>
+					<h4>Pour aller plus loin</h4>
+					<ul>
+						<li><a href="https://www.digium.com/" target="_blank">https://www.digium.com/</a></li>
+						<li><a href="https://fr.wikipedia.org/wiki/Asterisk_(logiciel)" target="_blank">https://fr.wikipedia.org/wiki/Asterisk_(logiciel)</a></li>
+						<li><a href="http://www.asteriskdocs.org/<" target="_blank">http://www.asteriskdocs.org/</a></li>
+						<li><a href="https://wiki.asterisk.org/wiki/display/AST/A+Brief+History+of+the+Asterisk+Project" target="_blank">https://wiki.asterisk.org/wiki/display/AST/A+Brief+History+of+the+Asterisk+Project</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin-top:0.5em">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card">
+				<div class="card-header bg-primary text-white"  style="cursor:pointer">
+					<i class="fas fa-chevron-down"></i> Asterisk ?
+				</div>
+				<div class="card-body">
+					<p><a href="https://www.asterisk.org/" target="_blank">Asterisk</a> est aujourd'hui plus qu'un simple IPBX. C'est une plateforme universelle pour créer des applications de communication.</p>
+					<p>La plupart des installations de Asterisk sont des IPBX gérant la téléphonie d'entreprises mais il est aussi utilisé pour mettre en place des passerelles de VoIP (chez les opérateurs par exemple), des solutions pour centres d'appels (grâce à ses applications de gestion de file d'attente, de gestion d'agents, de couplage téléphonie informatique), de pont de conférence, de serveur de messagerie vocale et beaucoup d'autres systèmes nécessitant la gestion de communications en temps réel.</p>
+					<p>Asterisk est aux plateformes de communication ce qu'Apache est aux serveurs d'applications web, un outil modulaire permettant de gérer les flux de communication de façon modulaire.</p>
+					<hr>
+					<h4>Pour aller plus loin</h4>
+					<ul>
+						<li><a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+as+a+Swiss+Army+Knife+of+Telephony" target="_blank">Asterisk as a Swiss Army Knife of Telephony</a></li>
+						<li><a href="https://github.com/asterisk/asterisk" target="_blank">Code source sur Github</a></li>
+						<li><a href="https://www.digium.com/resources/search-results?f[0]=field_document_category%3ASuccess%20Stories" target="_blank">Asterisk success stories</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin-top:0.5em">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card">
+				<div class="card-header bg-primary text-white"  style="cursor:pointer">
+					<i class="fas fa-chevron-down"></i> Architecture
+				</div>
+				<div class="card-body">
+					<a href="img/architecture.png" target="_blank"><img src="img/architecture.png" class="img-fluid"></a>
+					<br>
+					<br>
+					<p>Asterisk est architecturé autour d'un "Core" qui est le noyau central communiquant avec l'ensemble des modules. C'est lui qui est chargé de lire les fichiers de configuration et de charger les modules, des composants distincts qui fournissent les fonctionnalités du système.</p>
+					<p>Les modules qui font partie du "core" se trouvent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>pbx_xxxx.so</code></p>
+					<p>Comme vu dans la section "Asterisk ?" l'objectif principal de l'application est de permettre de construire des systèmes et applications de communication en temps réel.</p>
+					<p>Lors de ces communications, l'élément de base est le "channel" qui peut être "bridgé" avec un ou plusieurs autres "channel". Ces "channel" sont créés et manipulés par le "Dialplan" à travers des "Applications" et des "Fonctions".</p>
+					<hr>
+					<h4>Briques constitutives de Asterisk</h4>
+					<ul>
+						<li>
+							<strong>Channel Driver : </strong>
+							<p>Permettent de communiquer avec les équipements et les programmes extérieurs à Asterisk. C'est eux qui permettent au "core" d'Asterisk d'être agnostique à la signalisation. Ils convertissent les différents signaux et protocole en language universel pour le "core".</p>
+							<p>L'ensemble des "Channels Drivers" se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>chan_xxxx.so</code> ou xxxx représente le nom du type de canal (ex : chan_iax2.so, chan_pjsip.so ...).</p>
+							<p>Dans la CLI d'Asterisk la commande <code>"core show channeltypes"</code> permet de lister les "Channels Drivers" chargés au démarrage d'Asterisk. La commande <code>"core show channeltype NOM_CHANNEL"</code> (par exemple PJSIP) permet d'avoir des informations détaillés sur le "Channel Driver".</p>
+						</li>
+						<li>
+							<strong>Application : </strong>
+							<p>Les applications permettent de mettre en place les fonctionnalités du système de communication. Ces applications sont des briques que l'on peut assembler dans les plans d'appels et les scripts externes pour créer ses solutions de communication.</p>
+							<p>L'ensemble des applications se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>app_xxxx.so</code> ou xxxx représente le nom de l'application (ex : app_dial.so, app_mixmonitor.so). </p>
+							<p>Dans la CLI d'Asterisk la commande <code>"core show applications"</code> permet de lister les applications disponibles. La commande <code>"core show application NOM_APPLICATION"</code> permet d'avoir l'aide complète (objectif, paramètres, valeur de retour ...) de l'application désirée. Vous pouvez ainsi <strong>vous passer complètement d'Internet</strong> et n'utiliser que la CLI d'Asterisk pour avoir de l'aide sur l'utilisation des applications au sein de votre "Dialplan".</p>
+						</li>
+						<li>
+							<strong>Fonctions : </strong>
+							<p>Les fonctions permettent de récupérer, configurer, manipuler des informations (variables et paramètres d'une communication principalement) d'Asterisk.</p>
+							<p>L'ensemble des fonctions se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>func_xxxx.so</code> ou xxxx représente le nom de la fonction (ex : func_volume.so, func_rand.so).</p>
+							<p>Dans la CLI d'Asterisk, la commande <code>"core show functions"</code> permet de lister les fonctions disponibles. La commande <code>"core show function NOM_FONCTION"</code> permet d'avoir l'aide complète concernant l'utilisation de la fonction.</p>
+						</li>
+						<li>
+							<strong>Ressources : </strong>
+							<p>Les "Ressources" fournissent des fonctionnalités qui peuvent être appelées à n'importe quel moment d'une communication (ex : musique d'attente, parkage d'appels).</p>
+							<p>L'ensemble des "Ressources" se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>res_xxxx.so</code> ou xxxx représente le nom de la "Ressource" (ex : res_musiconhold.so, res_parking.so).</p>
+						</li>
+						<li>
+							<strong>Codecs :</strong>
+							<p>Les "Codecs" permettent de coder / decoder des flux audios ou vidéos, typiquement pour compresser et occuper moins de bande passante sur le réseau.</p>
+							<p>L'ensemble des "Codecs" se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>codec_xxxx.so</code> ou xxxx représente le nom du codec (ex : codec_g722.so, codec_gsm.so).</p>
+							<p>La <a href="https://www.voip-info.org/codecs" target="_blank">page dédiée aux codecs</a> du site voip-info.org vous donne plus de détails quand à la consommation de bande passante de chaque codec.</p>
+							<p>Dans la CLI d'Asterisk, la commande <code>"core show codecs"</code> permet de lister les codecs disponibles.</p>
+							<p>Il est également possible de voir un tableau du temps de conversion entre différents codecs en tapant <code>"core show translation"</code>.</p>
+						</li>
+						<li>
+							<strong>File Format Driver : </strong>
+							<p>Les "File Format Driver" permettent d'enregistrer ou de convertir différents types de fichiers.</p>
+							<p>L'ensemble des "File Format Driver" se situent dans le répertoire /usr/lib/asterisk/ et se nomment format_xxxx.so ou xxxx représente le nom du format (ex : format_wav.so, format_ulaw.so).</p>
+							<p>Il ne faut pas confondre "codecs" et "file format". En effet, les "codecs" sont chargés de coder/decoder en temps réel un flux. Les "file format" permettent d'utiliser le codec et d'écrire un fichier correct (entête, payload ...) sur le disque. </p>
+							<p>Dans la CLI vous pouvez par exemple convertir un fichier .wav en .ulaw avec la commande : <code>file convert fichier.wav fichier.ulaw</code></p>
+						</li>
+						<li>
+							<strong>Call Detail Record Driver : </strong>
+							<p>Ils permettent d'écrire les informations statistiques sur les communications dans des fichiers ou des bases de données.</p>
+							<p>L'ensemble des "Call Detail Record Driver" se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>cdr_xxxx.so</code> ou xxxx représente le nom du driver (ex : cdr_csv.so, cdr_pgsql.so).</p>
+							<p>Dans la CLI, la commande <code>"cdr show status"</code> permet de voir l'ensemble des "Call Detail Record Driver" chargés au démarrage de Asterisk.</p>
+						</li>
+						<li>
+							<strong>Call Event Log : </strong>
+							<p>Les "Call Event Log" donnent plus de détails sur les statistiques d'appels, par exemple le détail des applications impliquées, les données sur les transferts, les mises en attentes, etc ...</p>
+							<p>L'ensemble des "Call Event Log" se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>cel_xxxx.so</code> ou xxx représente le nom du driver (ex : cel_csv.so, cel_odbc.so).</p>
+							<p>Dans la CLI, la commande <code>"cel show status"</code> permet de voir l'ensemble des "Call Event Log" chargés au démarrage de Asterisk.</p>
+						</li>
+						<li>
+							<strong>Bridge Driver : </strong>
+							<p>Ils fournissent les différentes méthodes pour contrôler comment mettre en relation la partie "media" (ex : le flux RTP) entre les différents participants d'une communication.</p>
+							<p>L'ensemble des "Bridge Driver" se situent dans le répertoire <code>/usr/lib/asterisk/modules/</code> et se nomment <code>bridge_xxxx.so</code> ou xxxx représente le nom du bridge.</p>
+							<p>Dans la CLI, la commande <code>"bridge show all"</code> permet de voir toutes les "pattes" de communication en cours.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin-top:0.5em">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card">
+				<div class="card-header bg-primary text-white"  style="cursor:pointer">
+					<i class="fas fa-chevron-down"></i> Configuration
+				</div>
+				<div class="card-body">
+					<p>L'organisation d'Asterisk étant extrêmement modulaire comme vu dans le chapitre concernant son architecture, les fichiers de configuration le sont également.</p>
+					<p>Chaque module, application, codec ... dispose de son propre fichier de configuration (quand un fichier de configuration est nécessaire). Ceci permet de facilement trouver le bon endroit ou configurer un des éléments de Asterisk.</p>
+					<p>L'installation est également fournie avec l'ensemble des fichiers de configuration commentés. Les développeurs nous permettent ainsi de configurer un système sans avoir à recourir à une source externe de documentation.</p>
+					<p>Les fichiers de configuration de Asterisk se situent dans le répertoire <code>/etc/asterisk/</code>.</p>
+					<p>Le fichier principal de configuration de asterisk est <code>asterisk.conf</code> qui permet de configurer les différents répertoires ainsi que le comportement global de Asterisk.</p>
+					<p>A chaque manipulation de fichiers de configuration il est nécessaire de demander à Asterisk de relire ses fichiers. La solution la plus commode est d'utiliser dans la CLI la commande : <code>reload</code></p>
+					<p><strong>ATTENTION :</strong> certains paramètres système requiert un redémarrage du service (dans ce cas, la documentation l'indique).</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin-top:0.5em">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card">
+				<div class="card-header bg-primary text-white"  style="cursor:pointer">
+					<i class="fas fa-chevron-down"></i> Configuration SIP : PJSIP
+				</div>
+				<div class="card-body">
+					<p>La configuration du "Channel Driver" PJSIP se situe dans le fichier <code>pjsip.conf</code>.</p>
+					<p>Le fichier de configuration <code>pjsip.conf</code> est constitué de "section" qui se définisse à partir d'un <code>[]</code> (double crochet) de départ.</p>
+					<p>L'ensemble des paramètres de configuration de PJSIP se situe sur <a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+Configuration_res_pjsip" target="_blank">une page dédiée du wiki Asterisk</a> (ce lien est pour la version 13).</p>
+					<p>La page <a href="https://wiki.asterisk.org/wiki/display/AST/Hello+World#HelloWorld-Configurechan_pjsip" target="_blank">Hello World</a> peut vous aider à configurer vos premiers comptes.</p>
+					<p>La <a href="https://wiki.asterisk.org/wiki/display/AST/PJSIP+Configuration+Sections+and+Relationships" target="_blank">page dédiée au différentes sections</a> du fichier de configuration nous décrit en détails les différentes possibilités offertes par le fichier.</p>
+					<ul>
+						<li>
+							<strong>Endpoint :</strong>
+							<p>Défini les profils SIP (téléphones, serveurs distants ...). La définition d'un ENDPOINT est obligatoirement attaché à au moins une entrée AOR (voir les exemples <a href="https://wiki.asterisk.org/wiki/display/AST/PJSIP+Configuration+Sections+and+Relationships" target="_blank">sur la page du Wiki</a>)</p>
+						</li>
+						<li>
+							<strong>Transport : </strong>
+							<p>Défini le mode de transport des communications (TCP, UDP, WebSocket ...) et les possibilités de chiffrements (TLS, SSL ...). (voir les exemples <a href="https://wiki.asterisk.org/wiki/display/AST/PJSIP+Configuration+Sections+and+Relationships" target="_blank">sur la page du Wiki</a>)</p>
+						</li>
+						<li>
+							<strong>Auth : </strong>
+							<p>Défini les identifiants et le type d'authentification. (voir les exemples <a href="https://wiki.asterisk.org/wiki/display/AST/PJSIP+Configuration+Sections+and+Relationships" target="_blank">sur la page du Wiki</a>)</p>
+						</li>
+						<li>
+							<strong>Aor : </strong>
+							<p>Défini l'"Adress of Record" c'est à dire ou le ENDPOINT associé peut être contacté. AOR stocke également l'association avec les boites vocales et d'autres détails comme l'expiration de l'enregistrement. (voir les exemples <a href="https://wiki.asterisk.org/wiki/display/AST/PJSIP+Configuration+Sections+and+Relationships" target="_blank">sur la page du Wiki</a>)</p>
+						</li>
+						<li>
+							<strong>Registration</strong>
+							<p>Défini les paramètres d'authentification sur un serveur distant (par exemple pour établir un Trunk vers un opérateur ou une autre machine). (voir les exemples <a href="https://wiki.asterisk.org/wiki/display/AST/PJSIP+Configuration+Sections+and+Relationships" target="_blank">sur la page du Wiki</a>)</p>
+						</li>
+						<li>
+							<p>Pour les sections DOMAIN_ALIAS, ACL, IDENTIFY, CONTACT voir <a href="https://wiki.asterisk.org/wiki/display/AST/PJSIP+Configuration+Sections+and+Relationships" target="_blank">sur la page du Wiki</a>.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin-top:0.5em">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card">
+				<div class="card-header bg-primary text-white"  style="cursor:pointer">
+					<i class="fas fa-chevron-down"></i> Configuration du plan d'appel : Dialplan
+				</div>
+				<div class="card-body">
+					<p>Le "Dialplan" est l'élément central de la configuration d'un système Asterisk. C'est ici que les différentes applications et modules viennent s'imbriquer pour construire un système de communication.</p>
+					<p>Le "Dialplan" se configure dans le ficher <code>/etc/asterisk/extensions.conf</code>.</p>
+					<p>Le "Dialplan" est organisé en sections appelées "Context". Ces "Context" permettent de créer des blocs indépendants au sein du "Dialplan". Ces séparations permettent d'assurer la sécurité et la modularité des différents droits et parties de l'application.</p>
+					<hr>
+					<h4>Contextes et extensions</h4>
+					<p>Un contexte se défini entre deux [] (deux crochets) : [mon_contexte]</p>
+					<p>Un contexte héberge des "extensions". Une "extension" est un ensemble numéroté d'actions à lancer de façon séquentielle.</p>
+					<p>Une "extension" à la forme suivante : </p>
+					<p style="margin-left:2em"><code>exten => numéro, priorité, application([paramètre1, [paramètre 2]])</code></p>
+					<p>
+						Exemple : <br>
+						<code style="margin-left:2em">exten => 1000,1,Answer()</code>
+						<br>
+						<code style="margin-left:4em">1000,2,Dial(PJSIP/1000,20)</code>
+					</p>
+					<p class="alert alert-info"><strong>ATTENTION :</strong> une "extension" possède obligatoirement une priorité 1, sous peine d'être ignorée.</p>
+					<p class="alert alert-info"><strong>ATTENTION :</strong> l'"extension" se déroulera en suivant les priorité. S'il y a un "trou" (ex : il manque le 3 dans 1,2,4) alors l'execution de l'"extension" s'arretera à 2.</p>
+					<p>Il est possible de simplifier l'écriture d'une extension (recommandé) sous la forme :</p>
+					<p>
+						<code style="margin-left:2em">exten => 1000,1,Answer()</code>
+						<br>
+						<code style="margin-left:4em">same => n,Dial(PJSIP/1000,20)</code>
+					</p>
+					<hr>
+					<h4>Label sur les priorités</h4>
+					<p>Il est parfois nécessaire de revenir ou de sauter à une "priorité" précise de l'"extension" (ex : dans le cas de fonctions conditionnelles comme GotoIf ou GotoIfTime).</p>
+					<p>A cette fin il est possible de placer des "label" sur les priorité pour les nommer.</p>
+					<p>Un label se place de la façon suivante : </p>
+					<p>
+						<code style="margin-left:2em">exten => 1000,1,Answer()</code>
+						<br>
+						<code style="margin-left:4em">same => n<strong>(debut)</strong>,Dial(PJSIP/1000,20)</code>
+					</p>
+					<hr>
+					<h4>Expressions Régulières (Pattern Matching)</h4>
+					<p>De façon à ne pas avoir à définir chaque "extension" dans le "dialplan" (par exemple lors de la création des droits de 50 téléphones dans une entreprise), il est possible de configurer des expressions régulières pour l'analyse de l'"extension".</p>
+					<p>L'expression régulière remplace alors le "numero" dans l'"extension". Une expression régulière commence toujours par un _ (underscore) et peut se composer : </p>
+					<ul>
+						<li>X : un digit de 0 à 9</li>
+						<li>Z : un digit de 1 à 9</li>
+						<li>N : un digit de 2 à 9</li>
+						<li>[xy] : une liste de valeurs possibles</li>
+						<li>. : un caractère jocker permettant de compléter une expression avec un nombre indéterminé de digits</li>
+					</ul>
+					<hr>
+					<h4>Numéros Spéciaux</h4>
+					<p>Au sein d'une "extension", il est parfois nécessaire d'intercepter certains "numéro" non prévus.</p>
+					<p>En remplacement d'un "numéro" explicite, nous pouvons utiliser : </p>
+					<ul>
+						<li>a : utilisé quand l'utilisateur presse * pendant une conversation</li>
+						<li>e : utilisé comme un "catch all", quand on ne trouve pas le "numéro" dans le "context"</li>
+						<li>h : utilisé quand une communication se termine, par exemple pour executer des scripts à la fin d'une communication</li>
+						<li>i : utilisé quand on appui sur une touche inconnu dans la cadre d'"extension" attendant une saisie de l'utilisateur (ex : Background() ou Waitexten())</li>
+						<li>s : utilisé pour les appels entrants dans le cadre d'utilisation de cartes analogiques (ex : <a href="https://www.digium.com/products/telephony-cards/analog" target="_blank">Voir le site de Digium</a>)</li>
+						<li>t : utilisé quand on atteind le timeout dans le cadre d'"extension" attendant une saisie de l'utilisateur (ex : Background() ou. Waitexten())</li>
+					</ul>
+					<hr>
+					<h4>Inclusion de contextes</h4>
+					<p>Vous pouvez inclure des "context" dans d'autres "context" en utilisant la syntaxe : <code>include => NOM_DU_CONTEXTE_A_INCLURE</code></p>
+					<h4>Variables</h4>
+					<p>Lors d'une communication, le "dialplan" gère de nombreuses variables. <a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+Standard+Channel+Variables" target="_blanl">La page du wiki dédié</a> vous donne une liste exaustive de ces variables.</p>
+					<p>Ces variables utilisées sous la forme ${NOM_VARIABLE} peuvent être manipulées par les "fonctions" de Asterisk, être envoyées en paramètre d'une fonction ou à un script externe.</p>
+					<p>La variable la plus communément utilisé est ${EXTEN} qui reprend le numéro composé.</p>
+					<p>
+						<code style="margin-left:2em">exten => _1xx,1,Answer()</code>
+						<br>
+						<code style="margin-left:4em">same => n,Dial(PJSIP/${EXTEN},20)</code>
+					</p>
+					<hr>
+					<h4>Applications conditionnelles</h4>
+					<p>Certaines applications permettent de faires des sauts conditionnels dans les "priorité" d'une "extension" (ex : GotoIf(), GotoIfTime() ...).</p>
+					<p>Pour passer d'une "priorité" à l'autre il faut utiliser des "labels".</p>
+					<p>Exemple :</p>
+					<p><code>exten => extension, priorite, applicationConditionnelle(condition?labelSiVrai:labelSiFaux)</code></p>
+					<hr>
+					<h4>AstDB : Faire persister des informations</h4>
+					<p>Asterisk dispose d'une base de données interne astDB (basée sur <a href="https://www.sqlite.org/index.html" target="_blank">SQLite3</a>) qui permet de faire persister des informations.</p>
+					<p>Il est possible d'interragir avec astDB à travers :</p>
+					<ul>
+						<li>Le "Diaplan" en utilisant des fonctions comme DB, DB_EXISTS, DB_KEYS ... (<a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+Internal+Database" target="_blank">Voir la page Asterisk Internal Database du Wiki</a>)</li>
+						<li>La CLI en utilisant des commandes "database" (del, get, show ...) (<a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+Internal+Database" target="_blank">Voir la page Asterisk Internal Database du Wiki</a>)</li>
+						<li>Le Asterisk Manager Interface (AMI) qui permet à des programmes externes d'interagir avec Asterisk (<a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+ManagerAction_DBGet" target="_blank">Voir utilisation de AMI DBget dans le Wiki</a>)</li>
+						<li>En utilisation la ligne de commande de Linux : asterisk -rx "database show" par exemple</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin-top:0.5em">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card">
+				<div class="card-header bg-primary text-white"  style="cursor:pointer">
+					<i class="fas fa-chevron-down"></i> Intégration avec des applications externes
+				</div>
+				<div class="card-body">
+					<p>Asterisk permet de facilement intégrer des applications externes. Il est ainsi très facile de créer des applications qui vont interagir de façon bidirectionnelle avec Asterisk.</p>
+					<ul>
+						<li>Call Files : en créant un fichier dans un répertoire donné, Asterisk est capable de lancer les appels, vérifier leurs status et retenter en cas d'échec. (<a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+Call+Files" target="_blank">Plus d'information dans la page Asterisk Call Files du wiki</a>). Ceci est par exemple utile pour la création de moteurs d'appels.</li>
+						<li>Asterisk Gateway Interface (AGI) : permet d'executer des appels à des programmes externes depuis le "dialplan". Ceci ce fait généralement de façon synchrone et peut ainsi bloquer ou retarder les communications. (<a href="https://www.voip-info.org/asterisk-agi/" target="_blank">Plus de détails sur voip-info.org</a>)</li>
+						<li>Asterisk Manager Interface (AMI) : est un serveur sock TCP (par défaut sur le port 5038) qui permet à un programme externe de se connecter et d'executer des "actions". <a href="https://www.voip-info.org/asterisk-manager-api/" target="_blank">La liste des commandes</a> est complète et permet d'executer tout type d'action. Vous pouvez trouver un exemple simple d'appel AMI <a href="https://www.voip-info.org/asterisk-manager-example-php/" target="_blank">sur le site voip-info.org</a></li>
+						<li>Asterisk REST Interface (ARI) : expose les objets de Asterisk à travers une interface HTTP REST. Permet également de récupérer en temps réel les événements survenant sur le serveur à travers des websockets. La page <a href="https://wiki.asterisk.org/wiki/display/AST/Getting+Started+with+ARI" target="_blank">Getting Started with ARI</a> du wiki vous aide a bien démarrer.</li>
+						<li>Le Shell Linux : avec la commande 'asterisk -rx "votre commande"' toutes les commandes disponibles dans la CLI d'Asterisk sont accessibles à vos programmes.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.card-body').css('display','none');
+
+		$('.card-header').click(function(){
+			$(this).next('.card-body').toggle();
+			if($(this).next('.card-body').css('display') == 'none'){
+				$(this).removeClass('bg-info');
+				$(this).addClass('bg-primary');
+				$(this).children('.fas').removeClass('fa-chevron-up');
+				$(this).children('.fas').addClass('fa-chevron-down');
+			}else{
+				$(this).removeClass('bg-primary');
+				$(this).addClass('bg-info');
+				$(this).children('.fas').removeClass('fa-chevron-down');
+				$(this).children('.fas').addClass('fa-chevron-up');
+			}
+		})
+	})
+</script>
+</body>
+</html>
