@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="bg">
 <head>
 	<meta charset="utf-8">		
 	<title>TP 2018 USMB</title>
@@ -7,19 +7,29 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="crossorigin="anonymous"></script> 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<style type="text/css">
+		.bg { 
+				  background: url(img/fond_usmb2018.jpg) no-repeat center center fixed; 
+				  -webkit-background-size: cover;
+				  -moz-background-size: cover;
+				  -o-background-size: cover;
+				  background-size: cover;
+				}
+	</style>
 </head>
 
 <body>
-<div class="container-fluid">
-	<div class="jumbotron">
+<div class="container-fluid bg">
+	<div class="jumbotron bg" style="background: rgba(255, 255, 255, 0.6);">
 		<h1 class="display-4">Bienvenue, </h1>
 		<p class="lead">dans le TP "Infrastructure ToIP d'entreprise". Durant les 4 prochaines séances vous passerez par les différentes étapes de configuration d'un IPBX d'entreprise avec Asterisk.</p>
 		<p class="lead">Le programme : </p>
 		<ul>
-			<li>Session 1 : Histoire et architecture d'Asterisk. Déploiement d'Asterisk. Découverte de la CLI. Configuration de comptes SIP. Découvert du plan d'appels</li>
-			<li>Session 2 : Opérateur SIP et gestion du NAT</li>
-			<li>Session 3 : Stockage persistant, CDR dans MySQL, Asterisk Database</li>
-			<li>Session 4 : Développement d'applications tierces avec Asterisk</li>
+			<li><strong>Session 1 : </strong>Histoire et architecture d'Asterisk. Déploiement d'Asterisk. Découverte de la CLI. Configuration de comptes SIP. Découvert du plan d'appels</li>
+			<li><strong>Session 2 : </strong>Opérateur SIP et gestion du NAT</li>
+			<li><strong>Session 3 : </strong>Stockage persistant, CDR dans MySQL, Asterisk Database</li>
+			<li><strong>Session 4 : </strong>Développement d'applications tierces avec Asterisk</li>
 		</ul>
 		<hr class="my-4">
 		<p>Bon courage.</p>
@@ -27,11 +37,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white" style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Pour bien commencer
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<div class="col-12 col-sm-6 offset-smg-3">
 						<div class="embed-responsive embed-responsive-16by9">
 							<iframe src="https://www.youtube.com/embed/MWZfs-XXtNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,11 +54,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Historique
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<p>1999, <a href="https://web.archive.org/web/20120524222345/http://www.digium.com/en/company/bios.php?uid=1" target="_blank">Mark Spencer</a> gère une société ayant pour mission de faire du support de systèmes Linux "Linux Support Service". Au bout de quelques mois d'activité il a besoin de mettre en place un système de téléphonie aux fonctionnalités avancées (IVR, enregistrement, couplage téléphonie-informatique ...). Il ne trouve rien en dessous de 50.000$. Il décide alors de se lancer dans le développement d'un IPBX logiciel.</p>
 					<p>Fort de son expérience de stagiaire chez <a href="http://www.adtran.com/" target="_blank">Adtran</a>, il sort une première version en quelques mois. Afin d'accélérer le retour d'utilisateurs et l'ajout de nouvelles fonctionnalités, il décide de livrer son application sous une licence Open Source (GPL).</p>
 					<p>En 2001, "Linux Support Service" devien <a href="http://www.digium.com" target="_blank">Digium</a> et se spécialise dans Asterisk et ses produits dérivés (solutions clés en main, carte analogique et numérique, téléphones ...).</p>
@@ -68,11 +78,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Asterisk ?
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<p><a href="https://www.asterisk.org/" target="_blank">Asterisk</a> est aujourd'hui plus qu'un simple IPBX. C'est une plateforme universelle pour créer des applications de communication.</p>
 					<p>La plupart des installations de Asterisk sont des IPBX gérant la téléphonie d'entreprises mais il est aussi utilisé pour mettre en place des passerelles de VoIP (chez les opérateurs par exemple), des solutions pour centres d'appels (grâce à ses applications de gestion de file d'attente, de gestion d'agents, de couplage téléphonie informatique), de pont de conférence, de serveur de messagerie vocale et beaucoup d'autres systèmes nécessitant la gestion de communications en temps réel.</p>
 					<p>Asterisk est aux plateformes de communication ce qu'Apache est aux serveurs d'applications web, un outil modulaire permettant de gérer les flux de communication de façon modulaire.</p>
@@ -89,11 +99,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Architecture
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<a href="img/architecture.png" target="_blank"><img src="img/architecture.png" class="img-fluid"></a>
 					<br>
 					<br>
@@ -167,11 +177,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Configuration
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<p>L'organisation d'Asterisk étant extrêmement modulaire comme vu dans le chapitre concernant son architecture, les fichiers de configuration le sont également.</p>
 					<p>Chaque module, application, codec ... dispose de son propre fichier de configuration (quand un fichier de configuration est nécessaire). Ceci permet de facilement trouver le bon endroit ou configurer un des éléments de Asterisk.</p>
 					<p>L'installation est également fournie avec l'ensemble des fichiers de configuration commentés. Les développeurs nous permettent ainsi de configurer un système sans avoir à recourir à une source externe de documentation.</p>
@@ -185,11 +195,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Configuration SIP : PJSIP
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<p>La configuration du "Channel Driver" PJSIP se situe dans le fichier <code>pjsip.conf</code>.</p>
 					<p>Le fichier de configuration <code>pjsip.conf</code> est constitué de "section" qui se définisse à partir d'un <code>[]</code> (double crochet) de départ.</p>
 					<p>L'ensemble des paramètres de configuration de PJSIP se situe sur <a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+Configuration_res_pjsip" target="_blank">une page dédiée du wiki Asterisk</a> (ce lien est pour la version 13).</p>
@@ -226,11 +236,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Configuration du plan d'appel : Dialplan
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<p>Le "Dialplan" est l'élément central de la configuration d'un système Asterisk. C'est ici que les différentes applications et modules viennent s'imbriquer pour construire un système de communication.</p>
 					<p>Le "Dialplan" se configure dans le ficher <code>/etc/asterisk/extensions.conf</code>.</p>
 					<p>Le "Dialplan" est organisé en sections appelées "Context". Ces "Context" permettent de créer des blocs indépendants au sein du "Dialplan". Ces séparations permettent d'assurer la sécurité et la modularité des différents droits et parties de l'application.</p>
@@ -321,11 +331,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Intégration avec des applications externes
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<p>Asterisk permet de facilement intégrer des applications externes. Il est ainsi très facile de créer des applications qui vont interagir de façon bidirectionnelle avec Asterisk.</p>
 					<ul>
 						<li>Call Files : en créant un fichier dans un répertoire donné, Asterisk est capable de lancer les appels, vérifier leurs status et retenter en cas d'échec. (<a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+Call+Files" target="_blank">Plus d'information dans la page Asterisk Call Files du wiki</a>). Ceci est par exemple utile pour la création de moteurs d'appels.</li>
@@ -340,11 +350,11 @@
 	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
-			<div class="card">
+			<div class="card bg">
 				<div class="card-header bg-primary text-white"  style="cursor:pointer">
 					<i class="fas fa-chevron-down"></i> Astuces pour la partie développement du TP
 				</div>
-				<div class="card-body">
+				<div class="card-body" style="background: rgba(255, 255, 255, 0.6);">
 					<p>En partant du postulat que vous n'êtes pas expérimentés dans le développement, les vidéos présentées dans cette section vous permettront de parvenir au bout des deux programmes à réaliser.</p>
 					<div class="row">
 						<div class="col-12 col-sm-6">
