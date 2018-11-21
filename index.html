@@ -11,6 +11,20 @@
 
 <body>
 <div class="container-fluid">
+	<div class="jumbotron">
+		<h1 class="display-4">Bienvenue, </h1>
+		<p class="lead">dans le TP "Infrastructure ToIP d'entreprise". Durant les 4 prochaines séances vous passerez par les différentes étapes de configuration d'un IPBX d'entreprise avec Asterisk.</p>
+		<p class="lead">Le programme : </p>
+		<ul>
+			<li>Session 1 : Histoire et architecture d'Asterisk. Déploiement d'Asterisk. Découverte de la CLI. Configuration de comptes SIP. Découvert du plan d'appels</li>
+			<li>Session 2 : Opérateur SIP et gestion du NAT</li>
+			<li>Session 3 : Stockage persistant, CDR dans MySQL, Asterisk Database</li>
+			<li>Session 4 : Développement d'applications tierces avec Asterisk</li>
+		</ul>
+		<hr class="my-4">
+		<p>Bon courage.</p>
+		<button class="btn btn-primary btn-lg" id="hideJumbo">Fermer</button>
+	</div>
 	<div class="row" style="margin-top:0.5em">
 		<div class="col-12 col-lg-8 offset-lg-2">
 			<div class="card">
@@ -393,6 +407,9 @@
 </div>
 <script type="text/javascript">
 	$(document).ready(function(){
+		$('#hideJumbo').click(function(){
+			$('.jumbotron').hide();
+		})
 		$('.card-body').css('display','none');
 
 		$('.card-header').click(function(){
