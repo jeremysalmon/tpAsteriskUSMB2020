@@ -254,7 +254,7 @@
 						Exemple : <br>
 						<code style="margin-left:2em">exten => 1000,1,Answer()</code>
 						<br>
-						<code style="margin-left:4em">1000,2,Dial(PJSIP/1000,20)</code>
+						<code style="margin-left:4em">same => n,Dial(PJSIP/1000,20)</code>
 					</p>
 					<p class="alert alert-info"><strong>ATTENTION :</strong> une "extension" possède obligatoirement une priorité 1, sous peine d'être ignorée.</p>
 					<p class="alert alert-info"><strong>ATTENTION :</strong> l'"extension" se déroulera en suivant les priorité. S'il y a un "trou" (ex : il manque le 3 dans 1,2,4) alors l'execution de l'"extension" s'arretera à 2.</p>
